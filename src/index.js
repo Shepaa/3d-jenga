@@ -266,7 +266,7 @@ buildTower(towerHeight, towerWidth, startX, startY, startZ, cubeSize,
 /**
  * Controls
  */
-const moveSpeed = 0.005;
+const moveSpeed = 0.010;
 const mouseSensitivity = 0.002;
 const jumpForce = 0.1;
 const gravity = 0.01;
