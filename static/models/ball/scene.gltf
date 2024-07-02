@@ -1,0 +1,291 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 31948,
+      "max": [
+        0.011496600694954395,
+        0.01154708955436945,
+        0.01154505368322134
+      ],
+      "min": [
+        -0.011496600694954395,
+        -0.01154708955436945,
+        -0.01154505368322134
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 383376,
+      "componentType": 5126,
+      "count": 31948,
+      "max": [
+        0.9998401403427124,
+        0.999975323677063,
+        1.0
+      ],
+      "min": [
+        -0.9999500513076782,
+        -0.999975323677063,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 31948,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.12941177189350128,
+        0.12941177189350128,
+        0.12941177189350128,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 31948,
+      "max": [
+        0.9954060316085815,
+        0.996313750743866
+      ],
+      "min": [
+        0.0036861421540379524,
+        0.0036861582193523645
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 255584,
+      "componentType": 5126,
+      "count": 31948,
+      "max": [
+        0.9954060316085815,
+        0.996313750743866
+      ],
+      "min": [
+        0.0036861421540379524,
+        0.0036861582193523645
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 152280,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "B1Blender (https://sketchfab.com/B1Blender)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/free-3d-sports-football-with-pbr-texture-52aa177458e944dbb9abed7e88eb5ed5",
+      "title": "Free 3D sports Football with PBR texture"
+    },
+    "generator": "Sketchfab-16.15.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 609120,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 511168,
+      "byteOffset": 609120,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 766752,
+      "byteOffset": 1120288,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 511168,
+      "byteOffset": 1887040,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2398208,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/soccer_ball_baseColor.png"
+    },
+    {
+      "uri": "textures/soccer_ball_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "soccer_ball",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "soccer_ball_soccer_ball_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.1983359009027481,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.4039416758400864e-17,
+        -0.1983359009027481,
+        0.0,
+        0.0,
+        0.1983359009027481,
+        4.4039416758400864e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "4e5c329d7010412ca823b86700fecb9e.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        11682.9951171875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0019034015018236366,
+        -11682.995117187345,
+        0.0,
+        0.0,
+        11682.995117187345,
+        -0.0019034015018236366,
+        0.0,
+        0.0,
+        137.0786895751953,
+        0.0,
+        1.0
+      ],
+      "name": "soccer_ball"
+    },
+    {
+      "mesh": 0,
+      "name": "soccer_ball_soccer_ball_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
